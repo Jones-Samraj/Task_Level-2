@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+.image{
+    display: flex;
+    position: relative;
+}
+.content{
+    position: absolute;
+    top: 100px;
+    padding-left: 50px;
+}
+.content h1{
+    font-size: 6rem;
+}
+.content p{
+    font-size: 4rex;
+}
+.content button{
+    color: black;
+    padding: 15px 50px;
+    border-radius: 20px;
+    margin: 100px;
+    margin-left: 150px;
+    font-weight: bold;
+    border: none;
+}
+.content button:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    transition-duration: 0.1s;
+}
+.about{
+    display: flex;
+    position: fixed;
+    top: 30px;
+    left: 70%;
+    font-size: large;
+    font-weight: bold;
+}
+.about h5{
+    padding: 20px;
+}
+.about h5:hover{
+    cursor: pointer;
+    color: black;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    transition-duration: 0.1s;
+}
+.bottom{
+    display: flex;
+    position: fixed;
+    top: 80%;
+    left:80%;
+}
+.bottom h1{
+    border: solid;
+    border-radius: 100%;
+    margin: 15px;
+    padding: 10px;
+}
+.bottom :hover{
+    cursor: pointer;
+    color: black;
+    border-color: black;
+}
