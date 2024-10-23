@@ -18,12 +18,44 @@
         <div class="content">
             <h1>Explore the sights<br>of the Azores</h1>
             <p>A place where nature and adventure</p>
-            <button>Book now</button>
+            <button onclick="book()">Book now</button>
         </div>
         <div class="bottom">
             <h1>&#8592;</h1>
             <h1>&#8594;</h1>
         </div>
     </div>
+    <div id="popup">
+        <table>
+            <tr>
+                <td>Name</td>
+                <td>: <input type="text"></td>
+            </tr>
+            <tr>
+                <td>Phone Number</td>
+                <td>: <input type="number"></td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td>: <input type="email"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><button onclick="next()" id="sam">Next</button></td>
+            </tr>
+        </table>
+    </div>
+    <script>
+        var background=document.querySelector(".image")
+        var popups=document.getElementById("popup")
+        function book(){
+            background.style.opacity=0.5
+            popups.style.display="block"
+        }
+        function next(){
+            background.style.opacity=1
+            popups.style.display="none"
+        }
+    </script>
 </body>
 </html>
