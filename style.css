@@ -71,6 +71,7 @@
     border-color: black;
 }
 #popup{
+    color: black;
     background: #000;
     position: absolute;
     display: none;
