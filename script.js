@@ -1,6 +1,6 @@
 var background=document.querySelector(".image")
 var popups=document.getElementById("popup")
-function book(){
+function booknow(){
     background.style.opacity=0.5
     popups.style.display="block"
 }

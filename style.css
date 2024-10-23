@@ -71,7 +71,6 @@
     border-color: black;
 }
 #popup{
-    color: black;
     background: #000;
     position: absolute;
     display: none;
@@ -80,19 +79,20 @@
     padding: 10px;
     border-radius: 10px;
 }
-#sam{
+#nextbutton{
     color: #000;
     border: none;
     width: 50px;
 }
-#sam:hover{
+#nextbutton:hover{
     cursor: pointer;
     background: #000;
     color: white;
 }
 td{
     padding: 5px;
+    margin: 5px;
 }
 input{
-    colour:black;
+    color:black;
 }
